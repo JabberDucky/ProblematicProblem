@@ -97,9 +97,9 @@ namespace ProblematicProblem
 
                     activities.Remove(randomActivity);
 
-                    //int randomNumber = rng.Next(activities.Count);
+                   randomNumber = rng.Next(activities.Count);
 
-                   //string randomActivity = activities[randomNumber];
+                   randomActivity = activities[randomNumber];
                 }
 
                 Console.Write($"Ah got it! {userName}, your random activity is: {randomActivity}! Is this ok or do you want to grab another activity? Keep/Redo: ");
